@@ -41,9 +41,6 @@ All background applications, downloads, audio, render pipelines, and timers cont
 
 ```
 window_black_screen/
-├── .github/
-│   └── workflows/
-│       └── build.yml             # GitHub Actions automated Windows binary build
 ├── assets/
 │   ├── icon.ico                  # Multi-resolution ICO (16x16 to 256x256)
 │   └── icon.png                  # High-res PNG master asset
