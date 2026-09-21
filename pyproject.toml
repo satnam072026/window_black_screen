@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "window_black_screen"
+version = "1.0.0"
+description = "Instant Full-Screen Blackout Utility for Windows across all displays"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Sandeep", email = "bagosandeep@gmail.com" }]
+keywords = ["windows", "blackout", "multi-monitor", "screen", "utility", "tray"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Desktop Environment",
+]
+dependencies = [
+    "pystray>=0.19.5",
+    "pynput>=1.8.2",
+    "Pillow>=10.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/satnam072026/window_black_screen"
+
+[project.scripts]
+blackout = "blackout.app:main"
